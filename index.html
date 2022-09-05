@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First webiste</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            font-family: 'Roboto',sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        header{
+            background-color: #3aafa9;
+            height: 70px;
+            margin: 10px;
+        }
+        #nav ul{
+            list-style-type:none;
+            padding: 5px;
+            text-align: right;
+        }
+        #nav ul li{
+            padding: 0;
+            margin: 0;
+            display: inline;
+        }
+        #nav ul li a{
+            text-decoration: none;
+            font-family: 'poppins',sans-serif;
+            font-size: medium;
+            padding: .3em .2em;
+            color: white;
+            text-transform: uppercase;
+            padding-bottom: 5em;
+        }
+        a:hover{
+            color: #23424a;
+        }
+        /* footer */
+        #nav2 ul{
+            list-style-type:none;
+            padding: 5px;
+            text-align: center;
+        }
+        #nav2 ul li{
+            padding: 0;
+            margin: 0;
+            display: inline;
+        }
+        #nav2 ul li a{
+            text-decoration: none;
+            font-family: 'poppins',sans-serif;
+            font-size: medium;
+            padding: .3em .2em;
+            color: white;
+            text-transform: uppercase;
+            padding-bottom: 5em;
+        }
+        a:hover{
+            color: #23424a;
+        }
+        .images{
+            width: 200px;
+            height: 300px;
+            float: right;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+        }
+        .box:hover{
+            background-color: #af3a40;
+        }
+        .box1{
+            float: left;
+            width: 25%;
+        }
+        .box2{
+           float: left;
+           width: 22%;
+        }
+        .box3{
+            float: left;
+            width: 22%;
+
+        }
+        .last{
+            float: left;
+            width: 25%;
+        }
+        .gallery-h3{
+            color: #af3a40;
+            font-size: 2em;
+            text-align: center;
+            text-decoration: underline;
+            margin: 10px;
+        }
+        section img{
+            width: 350px;
+            height: 350px;
+           margin: 15px;
+           /* padding: 10px; */
+           opacity: 1.0;
+           transition: opacity 2s ease-in-out;
+           border: 2px solid #af3a40;
+           border-radius: 2em;
+        }
+
+        .img1:hover,
+        .img2:hover,
+        .img3:hover{
+            opacity: 0.2;
+        }
+
+        .img1{
+            width: 31%;
+        }
+        .img2{
+            width: 30%;
+        }
+        .img3{
+            width: 30%;
+        }
+        .intro{
+            background-color: #23424a;
+            margin: 10px;
+            padding: 20px;
+        }
+        .intro h1{
+            color: white;
+            font-size: 3em;
+            padding: 1em;
+            text-transform: uppercase;
+        }
+        .intro p{
+            padding: 0 0 1em 1.7em;
+            font-size: 1.5em;
+            color: white;
+        }
+        .intro-text{
+            color: white;
+            width: 50%;
+        }
+        .Experience h2{
+            color: #af3a40;
+            margin-left: 10px;
+            padding-left: 20px;
+            /* margin: 10px;
+            padding: 10px;*/
+            font-size: 2em; 
+        }
+        .Experience p{
+            margin: 10px;
+            padding: 20px;
+            font-size: 150%;
+        }
+        .box{
+            background-color:#3aafa9 ;
+            font-family: 'Tangerine';
+            font-weight: bolder;
+            font-size: 1.5em;
+            line-height: 1.5;
+            color: white;
+            border: 2px groove #23424a;
+            margin-left: 15px;
+            /* width: 200px; */
+            height: 200px;
+            padding-top: 50px;
+           
+           border-radius: 1em;
+           text-align: center;
+           
+        }
+        .dream h3{
+            color: #af3a40;
+            margin-top: 10px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+            clear: both;
+        }
+        .dream{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            font-size: 150%;
+            margin-right:10px ;
+        }
+        .dream ol{
+            margin: 10px;
+            padding: 20px;
+         
+        }
+        footer{
+            background-color:#23424a ;
+            margin: 10px;
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <img src="" alt="image of my logo">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Me</a></li>
+                        <li><a href="">Contact Me</a></li>
+                        <li><a href="">Achievements and Prospects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<div class="intro">
+    <div>
+        <img class="images" src="images/image1.jpg" alt="">
+    </div>
+        <div class="intro-text">
+            <h1>Learning How to improve on my Web Design </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis esse provident ipsa reiciendis at veritatis similique aliquid, possimus aliquam? Dolorem, rem quo. Natus, in.</p>
+        </div>
+    </div>
+        <section>
+            <h3 class="gallery-h3">Gallery</h3>
+            <div class="gallery">
+                <img class="img1" src="images/img1.jpg" alt="">
+                <img class="img2"src="images/img2.jpg" alt="">
+                <img class="img3"src="images/img3.jpg" alt="">
+            </div>
+        </section>
+            
+    <div class="Experience">
+        <h2>A Little Experience I will love to share</h2>
+        <p>I actually do not know what to say because i have really passed through alot though i don't look like what i have gone through but i thank God for where i am today, the most annoying thing happening to me right now is that the goods that i imported is not complete and with that i have lost over 85 thousand plus but all the same i still have to keep moving, it is really making me loose focus in classes and having alot of things to think about togther with my sleepless night. i actually do not really know what to say but all the same i feel Experience makes us better.
+      <br>
+      <br>
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit accusantium eligendi distinctio quaerat illo quo magnam reprehenderit vero illum enim, quisquam animi, exercitationem quidem nam nisi quae? Unde, ea recusandae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quae obcaecati? Ducimus, tempore expedita reiciendis nihil quia earum enim quibusdam delectus exercitationem esse cum assumenda ullam, quis voluptate accusamus, incidunt illum quo ratione laboriosam pariatur consectetur sunt itaque reprehenderit quas? Omnis tempora voluptatibus quasi error doloremque temporibus maiores id corrupti.
+
+        </p>
+    </div>
+    <div class="boxes">
+        <div class="box box1">
+            <p>“Learn as if you will live forever, live like you will die tomorrow.” — Mahatma Gandhi</p>
+        </div>
+    
+        <div class="box box2">
+            <p>“He that can have patience can have what he will.” ―Benjamin Franklinn</p>
+        </div>
+
+        <div class="box box3">
+            <p>“Success usually comes to those who are too busy looking for it.” — Henry David Thoreau</p>
+        </div>
+
+        <div class="box last">
+            <p>"If i can do it, you can do better"-Onyebuchi(A new friend)</p>
+        </div>
+    </div>
+
+ 
+
+    <section>
+        <div class="dream">
+            <h3>What I Will do when I become a Successful Entrepreneur</h3>
+            <ol>
+                <li>The very First thing i will like to do is to make sure i thank care of my parents, they have really tried for me even if i know that i am a handful lol(Husband man is really going to try)</li>
+                <li>When i become a successful Entrepreneur i would love to motivate and help people around me, though i was motivated by hunger in school to go into buying and selling.</li>
+                <li>i would also like to Alleviate hunger in the unversities especially to the female students by creating a platform in which i can give students goods for them to refund the money and take their profit, this will really go a long way for my gender.</li>
+            </ol>
+        
+            <h3>What I would do when I become a successful Web Developer and a Computer Scientist</h3>
+            <ol>
+                <li>I would make a lot of money from it </li>
+                <li>I will also love to train people who are new to the system</li>
+                <li>I might become a youtuber to make more money from teaching people</li>
+                <li>I will also love to build my personal site for business purposes</li>
+            </ol>
+    </div>
+    </section>
+    <footer>
+        <nav id="nav2">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Contact Me</a></li>
+                <li><a href="">Achievements and Prospects</a></li>
+            </ul>
+        </nav>
+        <p>you can contact us on</p>
+        <li>08146401333</li>
+        <li><a href="#">aibekendu@gmail.com</a>  </li>
+
+        <p>you can also cantact us on our social media pages</p>
+        <i class="fa-brands fa-facebook"></i>
+    </footer>
+</body>
+</html>
